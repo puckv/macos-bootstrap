@@ -9,8 +9,8 @@ ${0%/*}/strap/macos.sh
 ${0%/*}/strap/dotfiles.sh
 ${0%/*}/strap/brew.sh
 ${0%/*}/strap/scripts.sh
-${0%/*}/strap/tarsnap.sh
 ${0%/*}/strap/brew-formulas.sh
+${0%/*}/strap/tarsnap.sh
 ${0%/*}/strap/filevault.sh
 
 H1 "Bootstrap finished"
