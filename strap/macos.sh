@@ -286,6 +286,10 @@ defaults write com.apple.spotlight orderedItems -array \
 defaults write com.apple.lookup.shared LookupSuggestionsDisabled -int 1
 H3 "Reloading settings"
 sudo mdutil -E -i on /
+if [[ -d /Volumes/SHARED ]]; then
+H2WARN "Disabling Spotlight indexing on /Volumes/SHARED/"
+    sudo mdutil -E -i off /Volumes/SHARED
+fi
 sudo killall mds
 
 H2 "Terminal.app"
