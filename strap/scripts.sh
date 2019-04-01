@@ -73,3 +73,7 @@ else
     H3 "genusername.js valid sha256        : ${USERGEN_VALID}"
 fi
 rm -R "$USERGEN_TMPDIR"
+
+H2 "encpriv"
+H3 "Installing..."
+sudo cp ${0%/*}/../scripts/encpriv.sh /usr/local/bin/encpriv
