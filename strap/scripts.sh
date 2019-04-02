@@ -82,3 +82,8 @@ H2 "assume-role"
 H3 "Installing..."
 sudo curl -sSL -o /usr/local/bin/assume-role https://raw.githubusercontent.com/puckv/assume-role/master/assume-role
 sudo chmod +x /usr/local/bin/assume-role
+
+H2 "gpaws"
+H3 "Installing..."
+sudo curl -sSL -o /usr/local/bin/gpaws https://raw.githubusercontent.com/puckv/gpaws/master/gpaws
+sudo chmod +x /usr/local/bin/gpaws
