@@ -77,3 +77,8 @@ rm -R "$USERGEN_TMPDIR"
 H2 "encpriv"
 H3 "Installing..."
 sudo cp ${0%/*}/../scripts/encpriv.sh /usr/local/bin/encpriv
+
+H2 "assume-role"
+H3 "Installing..."
+sudo curl -sSL -o /usr/local/bin/assume-role https://raw.githubusercontent.com/puckv/assume-role/master/assume-role
+sudo chmod +x /usr/local/bin/assume-role
