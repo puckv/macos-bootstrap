@@ -18,3 +18,4 @@
 
 * [Node.js](https://nodejs.org/en/download/current/)
 * [Webstorm](https://www.jetbrains.com/webstorm/)
+* [Terraform](https://www.terraform.io/downloads.html)
