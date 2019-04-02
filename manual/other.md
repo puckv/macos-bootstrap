@@ -9,6 +9,11 @@
 * [1Password](https://1password.com/downloads/mac/) with [browser extensions](https://support.1password.com/explore/extension/)
 * [Arq Backup](https://www.arqbackup.com/download/)
 
+## Convenience
+
+* [Alfred](https://www.alfredapp.com/)
+
+
 ## Development tools
 
 * [Node.js](https://nodejs.org/en/download/current/)
