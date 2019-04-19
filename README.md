@@ -20,8 +20,11 @@ Configure [System Preferences](manual/macos-preferences.md) which could not be c
 
 #### Install and configure essentials
   
-* [Little Snitch](manual/little-snitch.md)
-* [Google Chrome](manual/chrome.md)
+1. Firewall: [Little Snitch](manual/little-snitch.md)
+2. Synced folders:
+    * [Dropbox](https://www.dropbox.com/)
+    * [Cryptomator](https://cryptomator.org/downloads/#macDownload), mount ~/Dropbox/Encrypted as DropboxEncrypted
+3. [Google Chrome](manual/chrome.md) 
 * [Other software](manual/other.md)
 
 #### Optional cleanup

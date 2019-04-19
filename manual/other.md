@@ -5,7 +5,6 @@
 * [Little Snitch](little-snitch.md)
 * [Google Chrome](chrome.md)
 * [Yubico Authenticator](https://developers.yubico.com/yubioath-desktop/Releases/)
-* [Dropbox](https://www.dropbox.com/)
 * [1Password](https://1password.com/downloads/mac/) with [browser extensions](https://support.1password.com/explore/extension/)
 * [Arq Backup](https://www.arqbackup.com/download/)
 

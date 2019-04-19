@@ -1,10 +1,24 @@
 # Google Chrome
 
-* [Download](https://www.google.com/chrome/) and install
-* Run script to configure default profile
-    ```bash
-    chrome-autoconfig
-    ```
+* [Download](https://www.google.com/chrome/), install, **don't start yet**, but follow next steps 
+
+## Option 1: Not a fresh installation
+
+If you have Chrome profiles stored in cloud, which you'd like to sync to this computer, create symlinks:
+
+```bash
+ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Default ~/Library/Application Support/Google/Chrome/Default
+ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Profile\ 1 ~/Library/Application Support/Google/Chrome/Profile\ 1
+```
+
+## Option 2: fresh installation
+
+Run script to configure default profile
+```bash
+chrome-autoconfig
+```
+
+Then follow the next steps. 
 
 ## Install Extensions
 
