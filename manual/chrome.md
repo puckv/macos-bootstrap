@@ -7,8 +7,8 @@
 If you have Chrome profiles stored in cloud, which you'd like to sync to this computer, create symlinks:
 
 ```bash
-ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Default ~/Library/Application Support/Google/Chrome/Default
-ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Profile\ 1 ~/Library/Application Support/Google/Chrome/Profile\ 1
+ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Default ~/Library/Application\ Support/Google/Chrome/Default
+ln -s /Volumes/DropboxEncrypted/Apps-Data/Google\ Chrome/Profile\ 1 ~/Library/Application\ Support/Google/Chrome/Profile\ 1
 ```
 
 ## Option 2: fresh installation
